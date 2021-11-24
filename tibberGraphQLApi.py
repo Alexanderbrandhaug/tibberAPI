@@ -19,7 +19,6 @@ def print_handle(data):
         tall >= 1000 #antall watt du ønsker notifikasjon ved
         and current_time - NOTIFICATION_INTERVAL > last_notification_timestamp
     ):
-        print("OK")
         # schedule async task from sync code
         asyncio.create_task(send_push_notification(data))
         last_notification_timestamp = current_time
