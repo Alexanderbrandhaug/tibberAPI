@@ -1,7 +1,7 @@
 ## tibberAPI
 
 Connects to tibber-graphQL API and subscribes to live-data from Tibber pulse. 
-Send push-notifications to your tibber-application on your cellphone when reaching a self-set Kw-threshold (effect). Then waits for n-amount of time before re-sending another message, given you're still above the said threshold. 
+Send push-notifications to your tibber-application on your cellphone when reaching a self-set Kw-threshold (effect). Then waits for n-amount of time before re-sending another message, given you're still above said threshold. 
 
 
 requirements: 
