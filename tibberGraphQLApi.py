@@ -52,7 +52,6 @@ mutation{
 """
 
 async def send_push_notification(data):
-    #maybe update your query with the received data here
     await client.execute_async(query=query2,headers={'Authorization': "generer egen nøkkel via developer.tibber.com"})
     
 
